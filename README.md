@@ -1,9 +1,9 @@
-Реализация на PyTorch сверточной нейронной сети для регрессии 14 ключевых точек лица.
+Implementation of a convolutional neural network for regression of 14 key facial points using PyTorch.
 
-Навыки:
+Skills:
 
-    Разработка архитектур CNN с нуля: выбор слоёв (свертки, пулинга, активации), настройка гиперпараметров, интеграция методов регуляризации (BatchNorm, Dropout).
+    Development of CNN architectures from scratch: selection of layers (convolution, pooling, activation), hyperparameter tuning, integration of regularization methods (BatchNorm, Dropout).
 
-    Обработка данных: нормализация, изменение размеров изображений, аугментация (отражение, поворот) с адаптацией координат точек.
+    Data processing: normalization, image resizing, augmentation (reflection, rotation) with point coordinate adaptation.
 
-    Оптимизация обучения: работа с оптимизаторами (SGD, Adam), управление параметрами (learning rate, batch size), валидация модели и предотвращение переобучения.
+    Training optimization: working with optimizers (SGD, Adam), parameter control (learning rate, batch size), model validation, and overfitting prevention.
